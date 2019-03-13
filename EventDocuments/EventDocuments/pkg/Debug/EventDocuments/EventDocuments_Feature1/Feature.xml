@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="e3b858c6-f6d4-467e-a136-b7570e980aac" Scope="Web" Title="EventDocuments Feature1">
+  <ElementManifests>
+    <ElementManifest Location="CopyNameToTitle\Elements.xml" />
+  </ElementManifests>
+</Feature>

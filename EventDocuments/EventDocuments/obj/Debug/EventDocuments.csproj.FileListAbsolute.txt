@@ -1,0 +1,5 @@
+c:\users\spadmin\documents\visual studio 2013\Projects\EventDocuments\EventDocuments\bin\Debug\EventDocuments.dll
+c:\users\spadmin\documents\visual studio 2013\Projects\EventDocuments\EventDocuments\bin\Debug\EventDocuments.pdb
+c:\users\spadmin\documents\visual studio 2013\Projects\EventDocuments\EventDocuments\obj\Debug\EventDocuments.csprojResolveAssemblyReference.cache
+c:\users\spadmin\documents\visual studio 2013\Projects\EventDocuments\EventDocuments\obj\Debug\EventDocuments.dll
+c:\users\spadmin\documents\visual studio 2013\Projects\EventDocuments\EventDocuments\obj\Debug\EventDocuments.pdb

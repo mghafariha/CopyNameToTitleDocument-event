@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListUrl="/InvoiceConsultantDoc">
+      <Receiver>
+        <Name>CopyNameToTitleItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>CopyNameToTitleItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  <Receiver>
+<Name>CopyNameToTitleItemAdded</Name>
+<Type>ItemAdded</Type>
+<Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+<Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+<SequenceNumber>10000</SequenceNumber>
+</Receiver>
+<Receiver>
+<Name>CopyNameToTitleItemUpdated</Name>
+<Type>ItemUpdated</Type>
+<Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+<Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+<SequenceNumber>10000</SequenceNumber>
+</Receiver>
+</Receivers>
+
+  <Receivers ListUrl="/InvoiceCMDoc">
+    <Receiver>
+      <Name>CopyNameToTitleItemAdding</Name>
+      <Type>ItemAdding</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CopyNameToTitleItemUpdating</Name>
+      <Type>ItemUpdating</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CopyNameToTitleItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CopyNameToTitleItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+  <Receivers ListUrl="/InvoicesDoc">
+    <Receiver>
+      <Name>CopyNameToTitleItemAdding</Name>
+      <Type>ItemAdding</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CopyNameToTitleItemUpdating</Name>
+      <Type>ItemUpdating</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CopyNameToTitleItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CopyNameToTitleItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+  
+  <Receivers ListUrl="/AdjustmentDoc">
+    <Receiver>
+      <Name>CopyNameToTitleItemAdding</Name>
+      <Type>ItemAdding</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CopyNameToTitleItemUpdating</Name>
+      <Type>ItemUpdating</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CopyNameToTitleItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CopyNameToTitleItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>EventDocuments, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b010dad104445b3b</Assembly>
+      <Class>EventDocuments.CopyNameToTitle.CopyNameToTitle</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+</Elements>
